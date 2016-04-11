@@ -16,14 +16,13 @@ bad_shows = set(['http://soundportraits.org/on-air/youth_portraits/',
                  'http://soundportraits.org/on-air/yiddish_radio_project/'])
 
 
-def content_tag(name_str, content_str, spacer_str=''):
+def content_tag(name_str, content_str):
     """
     :param str name_str:
     :param str content_str:
-    :param str spacer_str:
     :returns str:
     """
-    return '<{0}>{1}{2}{1}</{0}>'.format(name_str, spacer_str, content_str)
+    return '<{}>{}</{}>'.format(name_str, content_str, name_str)
 
 
 def contained_string(string, start_str, end_str):
@@ -76,8 +75,8 @@ def parsed_show_page(show_page_url):
                             '<!-- Start body text -->',
                             '<!--End body text -->').strip()
     body = ' '.join(body.split())
-    body = body.replace(' </p> <p> ', '\n\n')
-    body = body.replace('</p> <p>', '\n\n')
+    body = body.replace(' </p> <p> ', '\n')
+    body = body.replace('</p> <p>', '\n')
     body = body.replace('<p>', '')
     body = html.unescape(body.replace('</p>', '')).strip()
 
@@ -112,28 +111,26 @@ def feed_entry(data_tuple):
     :returns str:
     """
     post_date, title, body, url, duration = data_tuple
-    return content_tag('item',
-                       '\n\t'.join([
-                           content_tag('title', title),
-                           content_tag('link', url),
-                           content_tag('guid', url),
-                           content_tag('description', body),
-                           '<enclosure url="{}" length="{}" type="audio/mpeg"/>'.format(
-                               url,
-                               duration),
-                           content_tag('category', 'Podcasts'),
-                           content_tag(
-                               'pubDate',
-                               '{} 00:00:00 +0000'.format(
-                                   post_date.strftime('%a, %d %b %Y'))
-                           ),
-                           content_tag('itunes:author',
-                                       'Sound Portraits Productions'),
-                           content_tag('itunes:explicit', 'No'),
-                           content_tag('itunes:subtitle', body[:79] + '…'),
-                           content_tag('itunes:summary', body)
-                       ]),
-                       '\n')
+    return '<item>\n\t' + '\n\t'.join([
+        content_tag('title', title),
+        content_tag('link', url),
+        content_tag('guid', url),
+        content_tag('description', body),
+        '<enclosure url="{}" length="{}" type="audio/mpeg"/>'.format(
+            url,
+            duration),
+        content_tag('category', 'Podcasts'),
+        content_tag(
+            'pubDate',
+            '{} 00:00:00 +0000'.format(
+                post_date.strftime('%a, %d %b %Y'))
+        ),
+        content_tag('itunes:author',
+                    'Sound Portraits Productions'),
+        content_tag('itunes:explicit', 'No'),
+        content_tag('itunes:subtitle', body[:79] + '…'),
+        content_tag('itunes:summary', body)
+    ]) + '\n</item>'
 
 
 def main():
@@ -155,8 +152,8 @@ def main():
     header = open('header.xml', 'r').read()
 
     with open('soundportraits.rss', 'w') as outfile:
-        outfile.write(header.strip()+'\n')
-        outfile.write(feed_entries+'\n')
+        outfile.write(header.strip() + '\n')
+        outfile.write(feed_entries + '\n')
         outfile.write('</channel></rss>\n')
 
 
