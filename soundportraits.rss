@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
@@ -14,19 +15,19 @@
     <link>https://soundportraits.org/on-air/</link>
     <language>en-us</language>
     <copyright>Unknown</copyright>
-    <lastBuildDate>Sun, 10 April 2016 02:41:19 +0000</lastBuildDate>
-    <pubDate>Sun, 10 April 2016 02:41:19 +0000</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 02:41:19 +0000</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2016 02:41:19 +0000</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <webMaster>G. T. Maine</webMaster>
-	<generator>G. T. Maine</generator>
+    <webMaster>going@tomaine.com</webMaster>
+	<generator>Going T. Maine</generator>
 	<image>
 		<url>http://s3.amazonaws.com/production.mediajoint.prx.org/public/account_images/484/sndprtslogo_medium.jpg</url>
 		<title>Sound Portraits</title>
 		<link>http://www.soundportraits.org</link>
-		<description>A partly-handcrafted RSS feed by G. T. Maine</description>
+		<description>A partly-handcrafted RSS feed by Going T. Maine</description>
 	</image>
     <itunes:owner>
-        <itunes:name>G. T. Maine<itunes:name>
+        <itunes:name>Going T. Maine</itunes:name>
         <itunes:email>going@tomaine.com</itunes:email>
     </itunes:owner>
     <itunes:category text="Arts">
