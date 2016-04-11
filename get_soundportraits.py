@@ -128,7 +128,7 @@ def feed_entry(data_tuple):
         content_tag('description', body),
         '<enclosure url="{}" length="{}" type="audio/mpeg"/>'.format(
             url,
-            duration),
+            int(duration+1)),
         content_tag('category', 'Podcasts'),
         content_tag(
             'pubDate',
@@ -136,7 +136,7 @@ def feed_entry(data_tuple):
                 post_date.strftime('%a, %d %b %Y'))
         ),
         content_tag('itunes:duration',
-                    str(timedelta(seconds=duration))),
+                    str(timedelta(seconds=int(duration+1))),
         content_tag('itunes:author', 'Sound Portraits Productions'),
         content_tag('itunes:explicit', 'No'),
         content_tag('itunes:subtitle', body[:79] + '…'),
