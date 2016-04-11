@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
+from datetime import timedelta
 import html
 from mutagen.mp3 import MPEGInfo
 import requests
@@ -9,7 +10,8 @@ from tqdm import tqdm
 air_dict = {
     'http://soundportraits.org/on-air/execution_tapes/': datetime(2001, 1, 1),
     'http://soundportraits.org/on-air/marriage_broker/': datetime(1990, 2, 11),
-    'http://soundportraits.org/on-air/last_day_at_the_automat/': datetime(1991, 4, 9)
+    'http://soundportraits.org/on-air/last_day_at_the_automat/':
+    datetime(1991, 4, 9)
 }
 
 bad_shows = set(['http://soundportraits.org/on-air/youth_portraits/',
@@ -18,6 +20,7 @@ bad_shows = set(['http://soundportraits.org/on-air/youth_portraits/',
 
 def content_tag(name_str, content_str):
     """
+    Generates a name_str tag, with content_str content.
     :param str name_str:
     :param str content_str:
     :returns str:
@@ -27,6 +30,8 @@ def content_tag(name_str, content_str):
 
 def contained_string(string, start_str, end_str):
     """
+    Dumb search for the first instance of a string wrapped by start_str
+    and end_str. Could be a regex, but this should be (needlessly) faster.
     :param str string:
     :param str start_str:
     :param str end_str:
@@ -39,6 +44,8 @@ def contained_string(string, start_str, end_str):
 
 def soundportraits_show_urls():
     """
+    Visits http://www.soundportraits.org/on-air/
+    and gets a list of show URLs.
     :returns list:
     """
     r = requests.get('http://www.soundportraits.org/on-air/')
@@ -51,8 +58,10 @@ def soundportraits_show_urls():
 
 def parsed_show_page(show_page_url):
     """
-
+    Takes a Sound Portraits episode and finds out some salient information
+    This entails downloading the episode to get duration data, so it is _slow_
     :param str show_page_url:
+    :returns tuple: Data about this Sound Portraits episode, None if no MP3
     """
     r = requests.get(show_page_url)
     bs = BeautifulSoup(r.text, 'lxml')
@@ -78,7 +87,7 @@ def parsed_show_page(show_page_url):
     body = body.replace(' </p> <p> ', '\n')
     body = body.replace('</p> <p>', '\n')
     body = body.replace('<p>', '')
-    body = html.unescape(body.replace('</p>', '')).strip()
+    body = BeautifulSoup(html.unescape(body), 'lxml').text.strip()
 
     if show_page_url[-1] == '/':
         audio_page_url = '{}audio.php'.format(show_page_url)
@@ -107,8 +116,9 @@ def parsed_show_page(show_page_url):
 
 def feed_entry(data_tuple):
     """
+    Turn a data tuple into a Podcast RSS Entry
     :param tuple data_tuple: (time, title, description, url, duration)
-    :returns str:
+    :returns str: Podcast RSS <item> tag as a string
     """
     post_date, title, body, url, duration = data_tuple
     return '<item>\n\t' + '\n\t'.join([
@@ -125,8 +135,9 @@ def feed_entry(data_tuple):
             '{} 00:00:00 +0000'.format(
                 post_date.strftime('%a, %d %b %Y'))
         ),
-        content_tag('itunes:author',
-                    'Sound Portraits Productions'),
+        content_tag('itunes:duration',
+                    str(timedelta(seconds=duration))),
+        content_tag('itunes:author', 'Sound Portraits Productions'),
         content_tag('itunes:explicit', 'No'),
         content_tag('itunes:subtitle', body[:79] + '…'),
         content_tag('itunes:summary', body)
@@ -134,21 +145,14 @@ def feed_entry(data_tuple):
 
 
 def main():
-    """
-    """
+    """Generate a new RSS file"""
     show_urls = soundportraits_show_urls()
     data = []
-    for url in tqdm(show_urls):
-        datum = parsed_show_page(url)
-        if datum is not None:
-            data.append(datum)
+    data = [parsed_show_page(url) for url in tqdm(show_urls)]
+    data = [datum for datum in data if datum is not None]
 
-    data = [parsed_show_page(url) for url in show_urls]
-    data = [datum for datum in data if data is not None]
     data.sort(key=lambda x: x[0])
-
     feed_entries = '\n'.join([feed_entry(datum) for datum in data])
-
     header = open('header.xml', 'r').read()
 
     with open('soundportraits.rss', 'w') as outfile:
