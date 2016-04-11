@@ -29,8 +29,8 @@
         <itunes:name>Going T. Maine</itunes:name>
         <itunes:email>going@tomaine.com (Going T. Maine)</itunes:email>
     </itunes:owner>
-    <itunes:category text="Arts">
-        <itunes:category text="Spoken Word"/>
+    <itunes:category text="Society & Culture">
+        <itunes:category text="History"/>
     </itunes:category>
     <itunes:keywords>Interviews, WNYC, StoryCorps</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
@@ -387,7 +387,7 @@ This documentary examines the phenomenon of men and women experiencing visions o
 	<title>A Letter to Butchie</title>
 	<link>http://www.soundportraits.org/audio/letter_to_butchie.mp3</link>
 	<guid>http://www.soundportraits.org/audio/letter_to_butchie.mp3</guid>
-	<description>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York Citys Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
+	<description>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York City's Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
 Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if shed ever have the opportunity to speak to her son in person.
 Jeannie died of pneumonia on September 11, 1997, having spent the last three years of her life clean. She never saw her son again before she died. This is her audio letter to him.</description>
 	<enclosure url="http://www.soundportraits.org/audio/letter_to_butchie.mp3" length="345.8691875" type="audio/mpeg"/>
@@ -397,7 +397,7 @@ Jeannie died of pneumonia on September 11, 1997, having spent the last three yea
 	<itunes:author>Sound Portraits Productions</itunes:author>
 	<itunes:explicit>No</itunes:explicit>
 	<itunes:subtitle>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New…</itunes:subtitle>
-	<itunes:summary>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York Citys Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
+	<itunes:summary>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York City's Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
 Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if shed ever have the opportunity to speak to her son in person.
 Jeannie died of pneumonia on September 11, 1997, having spent the last three years of her life clean. She never saw her son again before she died. This is her audio letter to him.</itunes:summary>
 </item>
@@ -513,7 +513,7 @@ Witness to an Execution won a Peabody Award in 2000.</itunes:summary>
 	<title>The Day after Pearl Harbor</title>
 	<link>http://www.soundportraits.org/audio/pearlharbor.mp3</link>
 	<guid>http://www.soundportraits.org/audio/pearlharbor.mp3</guid>
-	<description>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nations history.</description>
+	<description>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nation's history.</description>
 	<enclosure url="http://www.soundportraits.org/audio/pearlharbor.mp3" length="132.892875" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 10 Dec 2000 00:00:00 +0000</pubDate>
@@ -521,7 +521,7 @@ Witness to an Execution won a Peabody Award in 2000.</itunes:summary>
 	<itunes:author>Sound Portraits Productions</itunes:author>
 	<itunes:explicit>No</itunes:explicit>
 	<itunes:subtitle>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spe…</itunes:subtitle>
-	<itunes:summary>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nations history.</itunes:summary>
+	<itunes:summary>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nation's history.</itunes:summary>
 </item>
 <item>
 	<title>The Execution Tapes</title>
