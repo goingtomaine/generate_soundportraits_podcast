@@ -7,13 +7,9 @@
     <title>Sound Portraits</title>
     <description>
         Sound Portraits Productions was the predecessor to the national oral-history project, StoryCorps. While Sound Portraits Productions is no longer an active organization, we would like to share with you the history of this award winning not-for-profit organization and encourage you to learn more about the work of StoryCorps.
-
         Sound Portraits Productions was first established as a not-for-profit 501(c)3 corporation in 1994 by MacArthur Fellow David Isay. Sound Portraits Productions was an independent production company dedicated to telling stories that bring neglected American voices to a national audience. Whether on the radio, in print, or on the Web, Sound Portraits was committed to producing innovative works of lasting educational, cultural, and artistic value.
-
         Sound Portraits' radio documentaries (broadcast on NPR's All Things Considered and Weekend Edition) are audio profiles of men and women surviving in the margins. Told with care and dignity, the work depicts the lives of Americans living in communities often neglected or misunderstood. Sound Portraits frequently collaborates with people living in these hard-to-access corners of America, giving them tape recorders and microphones and helping them tell their own stories.
-
         Sound Portraits is known not just for its cutting-edge radio documentaries but also for its innovative approaches to disseminating ideas, sparking discussion, and broadening the national debate on such issues as poverty, juvenile justice, prison, and race. After broadcast, their documentaries live on through extensive education outreach in classrooms across the country. In 1997, Sound Portraits was awarded funding from the MacArthur Foundation to bring the documentary Ghetto Life 101 into thousands of classrooms in collaboration with the national education outreach organization Facing History and Ourselves. This was just the beginning of an effort to make Sound Portraits work available as a learning tool, a mission that has grown with the company.
-
         E.B. White once wrote that public radio has a special duty: "To arouse our dreams, satisfy our hunger for beauty, take us on journeys… and address the ideal of excellence and not the idea of acceptability." Sound Portraits is committed to making that vision a reality.
     </description>
     <link>https://soundportraits.org/on-air/</link>
@@ -24,13 +20,23 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>G. T. Maine</webMaster>
 	<generator>G. T. Maine</generator>
-		<image>
-			<url>http://s3.amazonaws.com/production.mediajoint.prx.org/public/account_images/484/sndprtslogo_medium.jpg</url>
-			<title>Sound Portraits</title>
-			<link>https://archive.org/details/ClassicChandler</link>
-			<description>A partly-handcrafted RSS feed by G. T. Maine</description>
-		</image>
-
+	<image>
+		<url>http://s3.amazonaws.com/production.mediajoint.prx.org/public/account_images/484/sndprtslogo_medium.jpg</url>
+		<title>Sound Portraits</title>
+		<link>http://www.soundportraits.org</link>
+		<description>A partly-handcrafted RSS feed by G. T. Maine</description>
+	</image>
+    <itunes:owner>
+        <itunes:name>G. T. Maine<itunes:name>
+        <itunes:email>going@tomaine.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Arts">
+        <itunes:category text="Spoken Word"/>
+    </itunes:category>
+    <itunes:keywords>Interviews, WNYC, StoryCorps</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://s3.amazonaws.com/production.mediajoint.prx.org/public/account_images/484/sndprtslogo_medium.jpg"/>
+    <atom:link href="https://raw.githubusercontent.com/goingtomaine/generate_soundportraits_podcast/master/soundportraits.rss" rel="self" type="application/rss+xml" />
     <itunes:author>Soundportraits.org</itunes:author>
-    <itunes:subtitle>audio profiles of men and women surviving in the margins.</itunes:subtitle>
+    <itunes:subtitle>Audio profiles of men and women surviving in the margins.</itunes:subtitle>
     <itunes:summary>Sound Portraits' radio documentaries (broadcast on NPR's All Things Considered and Weekend Edition) are audio profiles of men and women surviving in the margins. Told with care and dignity, the work depicts the lives of Americans living in communities often neglected or misunderstood. Sound Portraits frequently collaborates with people living in these hard-to-access corners of America, giving them tape recorders and microphones and helping them tell their own stories.</itunes:summary>
