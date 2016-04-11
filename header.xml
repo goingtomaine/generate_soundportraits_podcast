@@ -30,7 +30,7 @@
         <itunes:name>Going T. Maine</itunes:name>
         <itunes:email>going@tomaine.com  (Going T. Maine)</itunes:email>
     </itunes:owner>
-    <itunes:category text="Society & Culture">
+    <itunes:category text="Society &amp; Culture">
         <itunes:category text="History"/>
     </itunes:category>
     <itunes:keywords>Interviews, WNYC, StoryCorps</itunes:keywords>
