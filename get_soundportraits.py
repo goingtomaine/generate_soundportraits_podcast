@@ -3,8 +3,9 @@ from datetime import datetime
 from datetime import timedelta
 import html
 from mutagen.mp3 import MPEGInfo
+import os
 import requests
-from tempfile import TemporaryFile
+from tempfile import NamedTemporaryFile
 from tqdm import tqdm
 
 air_dict = {
@@ -28,7 +29,7 @@ def content_tag(name_str, content_str):
     return '<{}>{}</{}>'.format(name_str, content_str, name_str)
 
 
-def contained_string(string, start_str, end_str):
+def sub_string(string, start_str, end_str):
     """
     Dumb search for the first instance of a string wrapped by start_str
     and end_str. Could be a regex, but this should be (needlessly) faster.
@@ -72,17 +73,17 @@ def parsed_show_page(show_page_url):
         premiere = air_dict[show_page_url]
 
     else:
-        premiere = contained_string(r.text,
-                                    '<!-- Start premiere info -->',
-                                    '<!-- Start premiere info -->').strip()
-        premiere = contained_string(premiere,
-                                    'Premiered ',
-                                    ', on').strip()
+        premiere = sub_string(r.text,
+                              '<!-- Start premiere info -->',
+                              '<!-- Start premiere info -->').strip()
+        premiere = sub_string(premiere,
+                              'Premiered ',
+                              ', on').strip()
         premiere = datetime.strptime(premiere, '%B %d, %Y')
 
-    body = contained_string(r.text,
-                            '<!-- Start body text -->',
-                            '<!--End body text -->').strip()
+    body = sub_string(r.text,
+                      '<!-- Start body text -->',
+                      '<!--End body text -->').strip()
     body = ' '.join(body.split())
     body = body.replace(' </p> <p> ', '\n')
     body = body.replace('</p> <p>', '\n')
@@ -98,20 +99,21 @@ def parsed_show_page(show_page_url):
         r = requests.get(audio_page_url)
         bs = BeautifulSoup(r.text, 'lxml')
         flashvars = bs.find('param', {'name': 'FlashVars'})['value']
-        soundfile = contained_string(flashvars, 'soundFile=', '.mp3') + '.mp3'
+        soundfile = sub_string(flashvars, 'soundFile=', '.mp3') + '.mp3'
         soundfile = soundfile.replace('%2F', '/').replace('%3A', ':')
 
         r = requests.get(soundfile)
-        temp = TemporaryFile()
+        temp = NamedTemporaryFile()
         temp.write(r.content)
         duration = MPEGInfo(temp).length
+        size = os.stat(temp.name).st_size
         temp.close()
 
     except:
         # If we can't find the sound file page, forget it.
         return None
 
-    return (premiere, title, body, soundfile, duration)
+    return (premiere, title, body, soundfile, duration, size)
 
 
 def feed_entry(data_tuple):
@@ -120,23 +122,20 @@ def feed_entry(data_tuple):
     :param tuple data_tuple: (time, title, description, url, duration)
     :returns str: Podcast RSS <item> tag as a string
     """
-    post_date, title, body, url, duration = data_tuple
+    post_date, title, body, url, duration, size = data_tuple
     return '<item>\n\t' + '\n\t'.join([
         content_tag('title', title),
         content_tag('link', url),
         content_tag('guid', url),
         content_tag('description', body),
-        '<enclosure url="{}" length="{}" type="audio/mpeg"/>'.format(
-            url,
-            int(duration+1)),
+        '<enclosure url="{}" length="{}" type="audio/mpeg"/>'.format(url,
+                                                                     size),
         content_tag('category', 'Podcasts'),
         content_tag(
-            'pubDate',
-            '{} 00:00:00 +0000'.format(
-                post_date.strftime('%a, %d %b %Y'))
-        ),
+            'pubDate', '{} 00:00:00 +0000'.format(
+                post_date.strftime('%a, %d %b %Y'))),
         content_tag('itunes:duration',
-                    str(timedelta(seconds=int(duration+1))),
+                    str(timedelta(seconds=int(duration + 1)))),
         content_tag('itunes:author', 'Sound Portraits Productions'),
         content_tag('itunes:explicit', 'No'),
         content_tag('itunes:subtitle', body[:79] + '…'),
