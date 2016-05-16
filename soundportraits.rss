@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
   <channel>
 
@@ -17,7 +17,7 @@
     <lastBuildDate>Sun, 10 Apr 2016 02:41:19 +0000</lastBuildDate>
     <pubDate>Sun, 10 Apr 2016 02:41:19 +0000</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <webMaster>going@tomaine.com (Going T. Maine)</webMaster>
+    <webMaster>going@tomaine.com</webMaster>
 	<generator>Going T. Maine</generator>
 	<image>
 		<url>http://s3.amazonaws.com/production.mediajoint.prx.org/public/account_images/484/sndprtslogo_medium.jpg</url>
@@ -27,10 +27,10 @@
 	</image>
     <itunes:owner>
         <itunes:name>Going T. Maine</itunes:name>
-        <itunes:email>going@tomaine.com (Going T. Maine)</itunes:email>
+        <itunes:email>going@tomaine.com</itunes:email>
     </itunes:owner>
-    <itunes:category text="Society &amp; Culture">
-        <itunes:category text="History"/>
+    <itunes:category text="Arts">
+        <itunes:category text="Spoken Word"/>
     </itunes:category>
     <itunes:keywords>Interviews, WNYC, StoryCorps</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
@@ -48,7 +48,7 @@
  At the time, the vice squad routinely raided gay bars. Patrons always complied with the police, frightened by the prospect of being identified in the newspaper. But this particular Friday night was different. It sparked a revolution, and a hidden subculture was transformed into a vibrant political movement. What began with a drag queen clobbering her arresting officer soon escalated into a full-fledged riot, and modern gay activism was born.
 
  This documentary, broadcast on the 20th anniversary of the Stonewall Riots, is the first documentary -- in any medium -- about the riots. It weaves together the perspectives of the participants, from Deputy Inspector Seymour Pine, who marshaled the raid, to Sylvia Rivera, one of the drag queens who battled most fiercely that night. The revolutionary impact of the riot is better understood by looking at life for gay men and lesbians in the era before Stonewall, seen through the eyes of people like Bruce Merrow and Geanne Harwood, a gay couple who have been together for 60 years, and Jheri Faire, an 80-year-old lesbian. Remembering Stonewall also examines how Stonewall affected gay politics through the voices of people like Randy Wicker, the first openly gay person to appear on television and radio; Joan Nestle, founder of the Lesbian Herstory Archives; and yippie leader Jim Fouratt, who helped found the Gay Liberation Front on the third night of the Stonewall Riots.</description>
-	<enclosure url="http://www.soundportraits.org/audio/remembering_stonewall.mp3" length="1383" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/remembering_stonewall.mp3" length="22118751" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 01 Jul 1989 00:00:00 +0000</pubDate>
 	<itunes:duration>0:23:03</itunes:duration>
@@ -69,7 +69,7 @@
 
  In 1930, Rabbi Field retired and passed the business on to Dan's uncle Irving Field (author of the matchmaking opus How to Marry and Find Love and Happiness). Dan Field took over in the '60s. Since then, he has arranged thousands of marriages.
 "I work seven days a week, eighty hours a week. No gimmicks, no nothing -- the real old-fashioned way!" Field explains. "I have more than eighty thousand people to choose from -- from sixteen to eighty-five. I have all walks of life, all over the world. All religion, all race. I have poor ones, I have rich ones. I have high society, millionaires, models, actors, actresses. I have high class, I have medium. It's a department store in here. Whoever comes in here, they give me an order, I deliver!"</description>
-	<enclosure url="http://www.soundportraits.org/audio/marriage-broker.mp3" length="204" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/marriage-broker.mp3" length="3262888" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 11 Feb 1990 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:24</itunes:duration>
@@ -88,7 +88,7 @@
 	<description>The Louisiana State Penitentiary, Angola Prison, is a sprawling old plantation on the Mississippi River. It was named, long ago, for the birthplace of the slaves who were brought here to work the land.
 Now, Angola holds more than five-thousand prisoners, mostly African Americans. It still has the look of another time: long straight lines of black men march to work along the levees with shovels over their shoulders. They are trailed by guards on horseback, shotguns resting in their laps.
 It used to be that a life sentence in Louisiana meant a maximum of ten years and six months behind bars. But, in the 1970s, the state's politicians changed the definition. A life sentence in Louisiana now means just that. Unless they're pardoned by the Governor, inmates today know they will never again see the outside world -- that they will die inside Angola prison. Tossing Away the Keys is their story.</description>
-	<enclosure url="http://www.soundportraits.org/audio/tossing_keys.mp3" length="1528" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/tossing_keys.mp3" length="24437158" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 29 Apr 1990 00:00:00 +0000</pubDate>
 	<itunes:duration>0:25:28</itunes:duration>
@@ -106,7 +106,7 @@ It used to be that a life sentence in Louisiana meant a maximum of ten years and
 	<description>The phone rings at the Coney Island Chamber of Commerce, and 86-year-old Matt Kennedy answers a common question: "Yes, of course Coney Island still exists. Yes, it's bigger and better than ever. Thank you."
 Kennedy is one of many longtime Coney Island employees whom producer David Isay interviewed for this audio portrait of Brooklyn's famous shoreline amusement park. Many of Coney Island's institutions are still around, even if Coney Island's hey-day has passed: Philip's Candies (founded in 1907), Nathan's Famous Hotdogs, and the legendary Cyclone roller-coaster.
 According to the Cyclone's devoted repairman Walter Williams, Coney Island -- and the Cyclone in particular -- are here to stay. "The Cyclone will stand forever. It will be here as long as peoples is here. And as long as peoples is here, I feel though that the world will be here and as the world is here I think the Cyclone will be here too . . . as long as it has someone to take care of it as I do."</description>
-	<enclosure url="http://www.soundportraits.org/audio/coney_island.mp3" length="1062" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/coney_island.mp3" length="16982870" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 19 Aug 1990 00:00:00 +0000</pubDate>
 	<itunes:duration>0:17:42</itunes:duration>
@@ -125,7 +125,7 @@ According to the Cyclone's devoted repairman Walter Williams, Coney Island -- an
 
  Ward 2-West houses a group of men who have committed some of the most notorious and gruesome crimes in New York City's history. Are people capable of committing monstrous acts of cruelty monsters themselves? In 1990, Producer David Isay spent one week, day and night, with the men of Ward 2-West to better understand the circumstances behind such extreme criminal behavior. Isay found that nearly every patient at Kirby had lived a life of almost unspeakable physical and mental abuse before committing his own crime.
 The sensitive portraits that emerge from the documentary present disturbed men whose personal suffering cannot be denied -- they speak with hauntingly human voices that we would all rather forget.</description>
-	<enclosure url="http://www.soundportraits.org/audio/ward_two_west.mp3" length="1456" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/ward_two_west.mp3" length="23295814" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 25 Aug 1991 00:00:00 +0000</pubDate>
 	<itunes:duration>0:24:16</itunes:duration>
@@ -143,7 +143,7 @@ The sensitive portraits that emerge from the documentary present disturbed men w
 	<guid>http://www.soundportraits.org/audio/joe-franklin.mp3</guid>
 	<description>Joe Franklin, The man credited with creating the television talk show, has hosted over 28,000 episodes of The Joe Franklin Show and has interviewed over 150,000 guests, some famous and some . . . not. From his Times Square office filled with chaos and clutter, he fields about 1,000 calls a day from hopefuls hoping to land a spot on his show. "Of course, most of them can't be on, but I hate to hurt their feelings so I never say 'good-bye.' I just hang up. So that way they feel the conversation hangs in limbo until we chat again."
 Over the years, Sound Portraits producers have met some pretty impressive characters. Unbelievable characters. But the greatest of them all is Joe Franklin. Just give a call to his office (the number's listed) and you'll see: "Hello? Who's this?" he'll ask. "[Fill in your name], my friend!" he'll exclaim, as if he's known you all his life. "Listen to me closely now. Whatever you want, it's automatic. Listen, [Fill in your name] -- I'm very busy. Very busy. Call me back at three o'clock exactly. You swear? Don't forget now -- very important. Critical! God bless you." SLAM.</description>
-	<enclosure url="http://www.soundportraits.org/audio/joe-franklin.mp3" length="531" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/joe-franklin.mp3" length="8494507" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 08 Sep 1991 00:00:00 +0000</pubDate>
 	<itunes:duration>0:08:51</itunes:duration>
@@ -159,7 +159,7 @@ Over the years, Sound Portraits producers have met some pretty impressive charac
 	<guid>http://www.soundportraits.org/audio/mississippi_jews.mp3</guid>
 	<description>Almost every Friday at about 7:45 p.m., auxiliary police officer Joe Erber calls in "Ten-Six" (or "busy") to his dispatcher. He cruises over to West Market Street on the outskirts of downtown Greenwood, Mississippi, and strides into Ahavath Rayim, the last Orthodox synagogue in the state. Erber grabs a prayer shawl off the rack, kisses it, and drapes it over his police uniform. Then he makes his way to the pulpit and begins the services: Hebrew with a drawl. For years, Erber has served as the de facto rabbi of Ahavath Rayim, spiritual leader to a once-thriving congregation that has dwindled down to almost nothing.
 It's a story that can be found in small communities throughout the South. At the turn of the century, Jewish immigrants poured into towns like Greenwood, seeking relief from the stifling tenement life up North. They arrived as peddlers, saved money, opened up stores. By the 1930s, Jews formed the backbone of the merchant class in hundreds of these towns. Soon after, though, young Jewish people began leaving, opting for the larger cities. By the early 1950s, this small-town Jewish exodus was in full swing. Today, the exodus nearly complete.</description>
-	<enclosure url="http://www.soundportraits.org/audio/mississippi_jews.mp3" length="734" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/mississippi_jews.mp3" length="11740052" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 20 Dec 1991 00:00:00 +0000</pubDate>
 	<itunes:duration>0:12:14</itunes:duration>
@@ -175,7 +175,7 @@ It's a story that can be found in small communities throughout the South. At the
 	<guid>http://www.soundportraits.org/audio/gospel_quartets.mp3</guid>
 	<description>Jefferson County, Alabama, a true crossroads of steel and song, is recognized as the birthplace and capital of a cappella gospel singing. This style of music emerged in the early 20th Century when a boom in the coal and steel industries led to a massive migration of African-American workers to Jefferson County. The workers were housed in segregated company towns and worked for meager wages. With little available recreation, they soon formed singing groups, and Jefferson County established its preeminence in the gospel world.
 Although Jefferson County's reign as a gospel center came to an end long ago, two of the oldest gospel quartets still remain in Bessemer, Alabama: The Sterling Jubilees (started in 1929 at the Bessemer Pipe Plant) and The Four Eagle Gospel Singers (started in 1938 at the U.S. Steel Plant in Fairfield, Alabama). Narrator Joe Watson has been the lead singer of The Four Eagle Gospel Singers since 1946.</description>
-	<enclosure url="http://www.soundportraits.org/audio/gospel_quartets.mp3" length="1519" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/gospel_quartets.mp3" length="24294736" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 22 Feb 1992 00:00:00 +0000</pubDate>
 	<itunes:duration>0:25:19</itunes:duration>
@@ -191,7 +191,7 @@ Although Jefferson County's reign as a gospel center came to an end long ago, tw
 	<guid>http://www.soundportraits.org/audio/serpents.mp3</guid>
 	<description>"They shall take up serpents; and if they drink any deadly thing it shall not hurt them." Mark 16:17-18   For the past eighty years, believers living in the Appalachian hills of the southeastern US have incorporated handling serpents and drinking strychnine (a "salvation cocktail") into their religious beliefs and practice. While serpent handling has been outlawed in all but two southern states, there remain several thousand practicing snake handlers today, most of whom live in poor coal mining communities. In accordance with their faith, handlers refuse medical treatment when bitten. Nevertheless, there have been fewer than 100 confirmed deaths in the history of snake handling.
 In They Shall Take Up Serpents, we hear the voices of believers and nonbelievers alike, widows who have lost their husbands to snakebites and wives who fear the same fate. The documentary is an intimate portrait of unwavering faith and religious ecstasy virtually unknown in mainstream American traditions.</description>
-	<enclosure url="http://www.soundportraits.org/audio/serpents.mp3" length="1306" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/serpents.mp3" length="20896326" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Mon, 30 Nov 1992 00:00:00 +0000</pubDate>
 	<itunes:duration>0:21:46</itunes:duration>
@@ -207,7 +207,7 @@ In They Shall Take Up Serpents, we hear the voices of believers and nonbelievers
 	<guid>http://www.soundportraits.org/audio/fox-hunting.mp3</guid>
 	<description>Hinkel Schillings and Shade Pate are uncle and nephew. For over sixty years, along the Texas-Louisiana border, they have gone fox hunting. Several times a week they sit around a fire from sunset to dawn listening to their hounds bark. That's all there is to fox hunting -- listening. There's no kill. A pack of hounds simply chase a fox around and around in circles through the woods until the dogs get tired and return to their cages. The dogs bark all the while -- the hunters call it "giving mouth."
 The men know the voice of each of their hounds and can tell from the bark how close each dog is to the fox. The hunters root for their favorite dog, reminisce of hounds of old, and tell stories. When a visitor is present, the men spend a great deal of time baying and yelping -- imitating the barks of hounds past and present to illustrate the finer points of the sport. But mostly they just sit quietly and absorb "the music of the chase."</description>
-	<enclosure url="http://www.soundportraits.org/audio/fox-hunting.mp3" length="434" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/fox-hunting.mp3" length="6934278" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Mon, 08 Feb 1993 00:00:00 +0000</pubDate>
 	<itunes:duration>0:07:14</itunes:duration>
@@ -222,7 +222,7 @@ The men know the voice of each of their hounds and can tell from the bark how cl
 	<link>http://www.soundportraits.org/audio/pawn-shop.mp3</link>
 	<guid>http://www.soundportraits.org/audio/pawn-shop.mp3</guid>
 	<description>Kipperman's Pawn Shop in Houston, Texas, is the only pawn shop/wedding chapel on the planet, according to its owner. The chapel is located behind a church facade inside the shop. It opened during the tough economic times of the early 1980s, when customers routinely hocked their wedding rings. Because Kipperman was reluctant to melt down "all those memories," his collection of rings grew and grew. Kipperman says that In 1984, while he was considering what to do with the rings, God spoke to him and told him that a wedding chapel would be a good thing to build in the store.</description>
-	<enclosure url="http://www.soundportraits.org/audio/pawn-shop.mp3" length="478" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/pawn-shop.mp3" length="7640702" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 12 Feb 1993 00:00:00 +0000</pubDate>
 	<itunes:duration>0:07:58</itunes:duration>
@@ -238,10 +238,10 @@ The men know the voice of each of their hounds and can tell from the bark how cl
 	<description>In March, 1993, LeAlan Jones, thirteen, and Lloyd Newman, fourteen, collaborated with public radio producer David Isay to create the radio documentary Ghetto Life 101, their audio diaries of life on Chicago's South Side. The boys taped for ten days, walking listeners through their daily lives: to school, to an overpass to throw rocks at cars, to a bus ride that takes them out of the ghetto, and to friends and family members in the community.
 The candor in Jones and Newman's diaries brought listeners face to face with a portrait of poverty and danger and their effects on childhood in one of Chicago's worst housing projects. Like Vietnam War veterans in the bodies of young boys, Jones and Newman described the bitter truth about the sounds of machine guns at night and the effects of a thriving drug world on a community.
 Ghetto Life 101 became one of the most acclaimed programs in public radio history, winning almost all of the major awards in American broadcasting, including: the Sigma Delta Chi Award, the Ohio State Award, the Livingston Award, the Corporation for Public Broadcasting Awards for Excellence in Documentary Radio and Special Achievement in Radio Programming, and others. Ghetto Life 101 was also awarded the Prix Italia, Europe's oldest and most prestigious broadcasting award. It has been translated into a dozen languages and has been broadcast worldwide.</description>
-	<enclosure url="http://www.soundportraits.org/audio/ghettolife101.mp3" length="1818" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/ghettolife101.mp3" length="29073655" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 18 May 1993 00:00:00 +0000</pubDate>
-	<itunes:duration>0:30:17</itunes:duration>
+	<itunes:duration>0:30:18</itunes:duration>
 	<itunes:author>Sound Portraits Productions</itunes:author>
 	<itunes:explicit>No</itunes:explicit>
 	<itunes:subtitle>In March, 1993, LeAlan Jones, thirteen, and Lloyd Newman, fourteen, collaborate…</itunes:subtitle>
@@ -256,7 +256,7 @@ Ghetto Life 101 became one of the most acclaimed programs in public radio histor
 	<description>"I Thought I Saw a Dinosaur" reads the welcome sign to Moscow, Texas, an unincorporated hamlet ninety miles north of Houston. There isn't much more to this place. Indeed, the number of dinosaurs residing in Moscow rivals the town's population, all thanks to a retired carpenter named Donald Bean.
 Bean came up with the idea for the theme park in the late 1950s when he happened upon a similar roadside attraction in Oregon. "Soon as I saw that, I said 'That's what I want to do!' So I did it." It took Bean twenty years of planning and saving before he was finally ready to build his own park, which opened in 1981. The park cost the Beans nearly $100,000 to build, and when Dinosaur Gardens opened it was met with just about the level of enthusiasm one might anticipate for a dinosaur theme park in the heart of Moscow, Texas. The masses did not seem to share Bean's fervor for creatures prehistoric. There were no lines at the ticket office. "It kind of disappointed me," Bean says, wiping a spider web from Struthiomimus's mouth. "I don't know how many people I thought would come, but I thought there'd be quite a few."
 There is a downside to this slow business, to be sure. Bean's wife of forty-three years had to come out of retirement and take a job at a nearby convenience store in order to help support her husband's dinosaur habit. But there's an upside, too. With visitors scarce, Donald Bean can spend as much time as he wants alone in his theme park pondering his dinosaurs.</description>
-	<enclosure url="http://www.soundportraits.org/audio/dinosaur-garden.mp3" length="384" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/dinosaur-garden.mp3" length="6135503" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 27 May 1993 00:00:00 +0000</pubDate>
 	<itunes:duration>0:06:24</itunes:duration>
@@ -273,7 +273,7 @@ There is a downside to this slow business, to be sure. Bean's wife of forty-thre
 	<guid>http://www.soundportraits.org/audio/castlebuilder.mp3</guid>
 	<description>Jim Bishop has been hard at work on an elaborate medieval castle on a remote mountain in the Colorado Rockies for the past quarter century. Bishop Castle is, in Bishop's words, "The world's biggest -- with the help of God -- one-man physical project, always open free to the public. A place of liberty, freedom, and justice. The poor man's Disneyland."
 Bishop Castle has (or will have) waterfalls, wishing wells, fountains, wrought-iron gates, a wrought-iron-and-glass scenic elevator, a gravity-belt escalator, a fire-breathing dragon -- and more. It was inspired by Bishop’s awe of the Colorado Rockies. After putting $450 on the piece of property at the age of fifteen, Bishop began working . . . and working . . . and working. The project continues to this day.</description>
-	<enclosure url="http://www.soundportraits.org/audio/castlebuilder.mp3" length="225" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/castlebuilder.mp3" length="3585556" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 24 Feb 1994 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:45</itunes:duration>
@@ -289,7 +289,7 @@ Bishop Castle has (or will have) waterfalls, wishing wells, fountains, wrought-i
 	<guid>http://www.soundportraits.org/audio/the-gods-of-times-square.mp3</guid>
 	<description>There is no place in the world like Times Square. Located in midtown Manhattan, it teems with people—hardened New Yorkers and wide-eyed tourists, commuters and shoppers, theater-goers and merchants, prostitutes and policemen. Shining down are shimmering lights, flashing signs, towering billboards, and epileptic neon. And amid the throngs, illuminated by the fluorescence of consumerism’s most triumphant block, walk the countless religious zealots who consider Times Square their concrete pulpit.
 In 1994, after shooting more than 40 hours of videotape, photographer Richard Sandler began collaborating with producer Dave Isay who heard a potential radio documentary in his video footage. Sandler continued filming until the end of the millennium, and in 1999 finished his video version of The Gods of Times Square, which has since won numerous film festival awards.</description>
-	<enclosure url="http://www.soundportraits.org/audio/the-gods-of-times-square.mp3" length="1396" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/the-gods-of-times-square.mp3" length="33494513" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 23 Dec 1994 00:00:00 +0000</pubDate>
 	<itunes:duration>0:23:16</itunes:duration>
@@ -306,7 +306,7 @@ In 1994, after shooting more than 40 hours of videotape, photographer Richard Sa
 	<description>All The Way Broken is the audio diary of Iolene Catalano, a former heroin addict and prostitute. She was born on May 10, 1948, in a carnival trailer in Pennsylvania. Her mother was an exotic dancer and her father ran a crooked carnival concession. She spent her childhood in orphanages, reform schools, and mental institutions. By age twenty, she was living on the streets of New York City as a prostitute, thief, and some-time rock-and-roll singer. Iolene was diagnosed with HIV one month after she shot heroin for the last time.
 Together Catalano and producer David Isay recorded more than thirty hours of interviews. In April 1994, Iolene had a breakdown. She was admitted to Roosevelt Hospital in New York City, and the project was suspended. Throughout her illness, Catalano kept a tape recorder by her bed-side. At night, she’d have a nurse tape a microphone to her chest so that she could record her thoughts before she fell asleep.
 Iolene died at Roosevelt Hospital on June 3, 1994. She was clean for the last eight years of her life. All The Way Broken won a Robert F. Kennedy Journalism Award in 1996.</description>
-	<enclosure url="http://www.soundportraits.org/audio/all_the_way_broken.mp3" length="1688" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/all_the_way_broken.mp3" length="27005112" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 09 Sep 1995 00:00:00 +0000</pubDate>
 	<itunes:duration>0:28:08</itunes:duration>
@@ -325,7 +325,7 @@ Iolene died at Roosevelt Hospital on June 3, 1994. She was clean for the last ei
 Remorse marks the return of Jones and Newman to NPR's airwaves. In March of 1993, at age fourteen, they collaborated with producer David Isay for the radio documentary Ghetto Life 101, an audio diary of young people growing up on Chicago's South Side.
 When Eric Morse fell to his death in 1994, LeAlan and Lloyd felt compelled to pick up their tape recorders once again. They spent a year reporting the case and interviewed everyone from Eric's mother, Toni Morse, in the only interview she's granted to the press, to Vince Lane, chairman of the Chicago Housing Authority, to the father of one of the assailants. They set out to learn about the story from the inside, to see how a tragedy like this can touch a community, and to bring to light the scars it left behind.
 Remorse won the Grand Prize Robert F. Kennedy Journalism Award and a Peabody Award in 1995.</description>
-	<enclosure url="http://www.soundportraits.org/audio/remorse.mp3" length="2359" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/remorse.mp3" length="37740498" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 21 Mar 1996 00:00:00 +0000</pubDate>
 	<itunes:duration>0:39:19</itunes:duration>
@@ -342,7 +342,7 @@ Remorse won the Grand Prize Robert F. Kennedy Journalism Award and a Peabody Awa
 	<link>http://www.soundportraits.org/audio/lifeguard.mp3</link>
 	<guid>http://www.soundportraits.org/audio/lifeguard.mp3</guid>
 	<description>Reggie Jones has been a lifeguard at 2-West on Jones Beach since 1944. In this American Talkers segment, Reggie tells of the grueling training and tryouts he went through to get his job. After lasting for over three unpaid weeks while competing with over 100 other beach-bound hunks, Reggie exults when he is picked from the crowd: "I thought I had won the Olympics. I said 'Yes! Yes! There is a God."</description>
-	<enclosure url="http://www.soundportraits.org/audio/lifeguard.mp3" length="226" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/lifeguard.mp3" length="3608178" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 07 Jul 1996 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:46</itunes:duration>
@@ -357,7 +357,7 @@ Remorse won the Grand Prize Robert F. Kennedy Journalism Award and a Peabody Awa
 	<guid>http://www.soundportraits.org/audio/museum_of_jurassic_technology.mp3</guid>
 	<description>The Museum of Jurassic Technology is a small nondescript storefront on Los Angeles's Venice Boulevard. Inside, it is a museum like no other. Museum creator David Wilson, a man of prodigiously unusual imagination, has been mounting a series of unbelievable exhibits there for the last fifteen years. He has collected spore-inhaling ants, x-ray bats, human horns, peach-pit carvings, and novel theories of oblivion. 
 Lawrence Weschler investigated the natural and unnatural phenomenon Wilson has assembled at the museum in his book Mr. Wilson's Cabinet of Wonder, a finalist for both the Pulitzer Prize and the National Book Critics' Circle Award in 1995. In 1996 Weschler teamed up with producer David Isay to bring the Museum of Jurassic Technology to radio life.</description>
-	<enclosure url="http://www.soundportraits.org/audio/museum_of_jurassic_technology.mp3" length="1392" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/museum_of_jurassic_technology.mp3" length="22261743" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 06 Dec 1996 00:00:00 +0000</pubDate>
 	<itunes:duration>0:23:12</itunes:duration>
@@ -373,7 +373,7 @@ Lawrence Weschler investigated the natural and unnatural phenomenon Wilson has a
 	<guid>http://www.soundportraits.org/audio/looking_for_mary.mp3</guid>
 	<description>Prompted by the enormous increase in sightings of the Virgin Mary in every region of the United States, Looking for Mary is reported by Beverly Donofrio, who, like many Catholics, regards Mary as a central figure in her spiritual life. But like many Americans, Donofrio has long been fascinated by -- and skeptical of -- people who claim they are speaking to Mary. So in February, 1997, she set off on a physical journey, visiting apparition sites across the United States, and a spiritual journey, trying to understand the role that Mary has played in her own life.
 This documentary examines the phenomenon of men and women experiencing visions of the Virgin Mary from Donofrio's intimate perspective. Producer David Isay, associate producer Stacy Abramson and writer Donofrio take listeners to apparition sites around the country -- from New York and California to Georgia and Arizona -- speaking to people who believe they are communicating with the Blessed Mother.</description>
-	<enclosure url="http://www.soundportraits.org/audio/looking_for_mary.mp3" length="1434" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/looking_for_mary.mp3" length="22939206" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 06 Dec 1997 00:00:00 +0000</pubDate>
 	<itunes:duration>0:23:54</itunes:duration>
@@ -387,18 +387,18 @@ This documentary examines the phenomenon of men and women experiencing visions o
 	<title>A Letter to Butchie</title>
 	<link>http://www.soundportraits.org/audio/letter_to_butchie.mp3</link>
 	<guid>http://www.soundportraits.org/audio/letter_to_butchie.mp3</guid>
-	<description>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York City's Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
-Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if she'd ever have the opportunity to speak to her son in person.
+	<description>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York Citys Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
+Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if shed ever have the opportunity to speak to her son in person.
 Jeannie died of pneumonia on September 11, 1997, having spent the last three years of her life clean. She never saw her son again before she died. This is her audio letter to him.</description>
-	<enclosure url="http://www.soundportraits.org/audio/letter_to_butchie.mp3" length="346" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/letter_to_butchie.mp3" length="5534135" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 31 Dec 1997 00:00:00 +0000</pubDate>
 	<itunes:duration>0:05:46</itunes:duration>
 	<itunes:author>Sound Portraits Productions</itunes:author>
 	<itunes:explicit>No</itunes:explicit>
 	<itunes:subtitle>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New…</itunes:subtitle>
-	<itunes:summary>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York City's Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
-Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if she'd ever have the opportunity to speak to her son in person.
+	<itunes:summary>Jeannie Reilly was a heroin addict and prostitute who worked the streets of New York Citys Lower East Side. In 1994, she made a resolution: she would get off drugs, get off the streets, and pull her life together, so that one day she might reunite with the son she had abandoned as a baby.
+Producer David Isay used to live and work on a block that Reilly frequented, and the two became friends. After Reilly was released from jail for the last time, she began recording a series of audio letters to her son. Reilly was HIV-positive at the time, and she started the project because she did not know if shed ever have the opportunity to speak to her son in person.
 Jeannie died of pneumonia on September 11, 1997, having spent the last three years of her life clean. She never saw her son again before she died. This is her audio letter to him.</itunes:summary>
 </item>
 <item>
@@ -408,7 +408,7 @@ Jeannie died of pneumonia on September 11, 1997, having spent the last three yea
 	<description>This is an audio portrait of one of the final vestiges of the Bowery, New York's notorious skid row. In the first half of the century, the mile-long Bowery's bars, missions and cheap hotels (or flophouses) were home to an estimated 35,000 down-and-out men each night. Today, only a handful of flophouses, virtually unchanged for half a century, are all that remain of this once teeming world. 
 For several months in 1998, David Isay and Stacy Abramson had unprecedented 24-hour access to the Sunshine Hotel, one of the last of the no-frills establishments. "It was like stepping into King Tut's Tomb," Isay says. "The Sunshine is this fascinating, self-contained society full of unbelievable characters. While it's a profoundly sad place, it is, at the same time, home to men with powerful and poetic stories." 
 The Sunshine Hotel was awarded the Prix Italia, Europe's oldest and most prestigious broadcasting award, in 1999.</description>
-	<enclosure url="http://www.soundportraits.org/audio/sunshine_hotel.mp3" length="1497" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/sunshine_hotel.mp3" length="11972021" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 18 Sep 1998 00:00:00 +0000</pubDate>
 	<itunes:duration>0:24:57</itunes:duration>
@@ -425,7 +425,7 @@ The Sunshine Hotel was awarded the Prix Italia, Europe's oldest and most prestig
 	<guid>http://www.soundportraits.org/audio/charlies-story.mp3</guid>
 	<description>Charlie Geter had been living in the Palace Hotel, a flophouse on New York City's Bowery, for over twenty-five years when producers David Isay and Stacy Abramson met him while working on their documentary The Sunshine Hotel. Impressed by his heart and drive, they gave Charlie a tape recorder and asked him to interview other residents of the Palace Hotel and to tell his life story.
 Charlie worked on the project for nearly two years, recording late into the night and struggling to get interviews from the other hotel residents. Charlie now lives -- in his own apartment -- in Manhattan.</description>
-	<enclosure url="http://www.soundportraits.org/audio/charlies-story.mp3" length="650" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/charlies-story.mp3" length="10384883" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 30 Dec 1998 00:00:00 +0000</pubDate>
 	<itunes:duration>0:10:50</itunes:duration>
@@ -443,7 +443,7 @@ Charlie worked on the project for nearly two years, recording late into the nigh
 As a child, Jenny couldn't get Eddie out of her mind: the freakish son in the dark Bronx living room, his parents looking up at him with wonder and sorrow. She had nightmares for weeks. She felt that if she touched that photo, she too would turn into a giant. Her fears were magnified by the silence surrounding her cousin. For years, whenever she'd try to talk about Eddie, her family refused to discuss him.
  The Jewish Giant began with Jenny's search to uncover a story that has remained a secret for 25 years. Eddie was normal sized until he became a teenager, when he began to grow uncontrollably (he suffered from acromegaly, a then-incurable condition resulting from a tumor that had developed on his pituitary gland). According to The Guiness Book of World Records, Eddie grew to be 8'9". As an adult, the only work he could find involved exploiting his freakishness. He starred in B-grade monster movies (The Brain that Wouldn't Die), made two 45 records ("The Happy Giant" and "The Good Monster") and was billed in the Ringling Brothers Circus at Madison Square Garden as "The Tallest Man on Earth." Eddie died in 1972 at the age of 36 in Montefiore Hospital in the Bronx. His coffin was custom made.
 The Jewish Giant is a story of suffering, of not fitting in, of the body betraying itself, and of the bizarre life-twists that can subsume a family. It's a story about what it's like to be a regular person looking at the world from inside a not-so-regular body.</description>
-	<enclosure url="http://www.soundportraits.org/audio/jewish_giant.mp3" length="1695" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/jewish_giant.mp3" length="27112283" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 06 Oct 1999 00:00:00 +0000</pubDate>
 	<itunes:duration>0:28:15</itunes:duration>
@@ -460,7 +460,7 @@ The Jewish Giant is a story of suffering, of not fitting in, of the body betrayi
 	<link>http://www.soundportraits.org/audio/marine-talkers.mp3</link>
 	<guid>http://www.soundportraits.org/audio/marine-talkers.mp3</guid>
 	<description>In 1945, as the last months of fighting in the South Pacific drew to a close, the radio section of the Division of Public Relations of the United States Marine Corps recorded a group of tired GIs as they sat in their bunks about 7,000 miles off the coast of “sunny California.” February 14 was just around the corner, and the fighting men of the First Marine division from Milwaukee, Wisconsin were given the chance to send valentines and love poems to their mothers, wives, and sweethearts back home. Their loving words, often stammering and always from the heart, were pressed into records and sent back to the States as rare audio messages. A copy was also preserved at the Recorded Sound Division of the Library of Congress. Marine Valentines is the result.</description>
-	<enclosure url="http://www.soundportraits.org/audio/marine-talkers.mp3" length="391" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/marine-talkers.mp3" length="6247754" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 13 Feb 2000 00:00:00 +0000</pubDate>
 	<itunes:duration>0:06:31</itunes:duration>
@@ -478,7 +478,7 @@ The Jewish Giant is a story of suffering, of not fitting in, of the body betrayi
  Born Usher Fellig in what is now the Ukraine, Weegee moved to New York's Lower East Side in 1910 at the age of eleven. By fifteen he had left home, supporting himself through odd jobs and sleeping wherever he could find a place: the benches of Penn Station and Bryant Park (to which he would later return, camera in hand), or the Bowery's flophouses. He became a street photographer's assistant and later a roaming photographer himself, snapping pictures of children to sell to their poor but proud parents. During the 1920s he worked and often lived in the darkrooms of the New York Times and Acme Newspictures, and soon he was filling in for photographers when they couldn't make their late shift. By the thirties, his intimate chronicles of disasters both natural and man-made were being featured in PM, Life, Popular Photography, and all of the New York dailies. He went on to become one of the most prolific and famous news photographers of the century. His first book, Naked City, which helped established his fame and is still in print today, was published in 1945.
 
  Today Weegee is credited with ushering in the age of tabloid culture, while at the same time being revered for elevating the sordid side of human life to that of high art. Here is a rare interview with Weegee, recently discovered at the Recorded Sound division at the Library of Congress. It was conducted in July, 1945, by nationally-syndicated talk show host Mary Margaret McBride on WEAF in New York, soon after the publication of Naked City.</description>
-	<enclosure url="http://www.soundportraits.org/audio/weegee.mp3" length="396" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/weegee.mp3" length="6334895" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 11 Jun 2000 00:00:00 +0000</pubDate>
 	<itunes:duration>0:06:36</itunes:duration>
@@ -498,7 +498,7 @@ The Jewish Giant is a story of suffering, of not fitting in, of the body betrayi
 	<description>Witness to an Execution tells the stories of the men and women involved with the execution of deathrow inmates at the Walls Unit in Huntsville, Texas. Narrated by Warden Jim Willett, who oversees all Texas executions, Witness to an Execution documents, in minute-by-minute detail, the process of carrying out an execution by lethal injection. Most of the Texas Department of Criminal Justice employees interviewed have witnessed over one hundred inmates be put to death. One-third of all executions in the US have taken place in Texas, since the death penalty was reinstated in 1977.
 The voices in Witness to an Execution tell a rare story. Major Kenneth Dean, a member of the "tie-down" team, describes the act of walking an inmate from his cell to the death chamber. Jim Brazzil, a death house chaplain who has witnessed 114 executions, remembers inmates' last words to him. Former corrections officer Fred Allen discusses his own mental breakdown, caused, he says, by participating in one too many executions.
 Witness to an Execution won a Peabody Award in 2000.</description>
-	<enclosure url="http://www.soundportraits.org/audio/witness_to_an_execution.mp3" length="1343" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/witness_to_an_execution.mp3" length="21476834" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 20 Oct 2000 00:00:00 +0000</pubDate>
 	<itunes:duration>0:22:23</itunes:duration>
@@ -513,15 +513,15 @@ Witness to an Execution won a Peabody Award in 2000.</itunes:summary>
 	<title>The Day after Pearl Harbor</title>
 	<link>http://www.soundportraits.org/audio/pearlharbor.mp3</link>
 	<guid>http://www.soundportraits.org/audio/pearlharbor.mp3</guid>
-	<description>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nation's history.</description>
-	<enclosure url="http://www.soundportraits.org/audio/pearlharbor.mp3" length="133" type="audio/mpeg"/>
+	<description>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nations history.</description>
+	<enclosure url="http://www.soundportraits.org/audio/pearlharbor.mp3" length="2126598" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sun, 10 Dec 2000 00:00:00 +0000</pubDate>
 	<itunes:duration>0:02:13</itunes:duration>
 	<itunes:author>Sound Portraits Productions</itunes:author>
 	<itunes:explicit>No</itunes:explicit>
 	<itunes:subtitle>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spe…</itunes:subtitle>
-	<itunes:summary>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nation's history.</itunes:summary>
+	<itunes:summary>The Japanese bombed Pearl Harbor on December 7, 1941. After two tense years spent watching the war overseas, "the day that will live in infamy" thrust the United States into World War II overnight. The day after the attack, the Library of Congress sent archivists around the country to record the thoughts and fears of a citizenry newly at war. Stored at the Library of Congress for nearly sixty years, these interviews -- conducted on 9th and 13th Streets in Washington, D.C. -- captured the voices of ordinary Americans at one of the most cataclysmic times in the nations history.</itunes:summary>
 </item>
 <item>
 	<title>The Execution Tapes</title>
@@ -532,7 +532,7 @@ In 1998, however, audio tapes of 22 Georgia executions -- tapes recorded by memb
 In addition to audio of the 1984 execution of Ivon Ray Stanley, the program features audio of an execution that had to be "reinitiated" -- that is, an execution in which the inmate is still alive after being electrocuted for two minutes, requiring that he be electrocuted again. There is also a selection of inmates' final statements, recorded immediately before their execution.
 Excerpts of the tapes are followed by two roundtable discussions about the implications of the tapes' broadcast. Participants include 60 Minutes co-editor Mike Wallace, First-Amendment lawyer Martin Garbus, former Georgia Attorney General Michael Bowers, professor of psychiatry and psychology Robert Jay Lifton, and Diane Clements, president of the victims' rights organization Justice for All.
 Next Page  | Execution of Ivon Ray Stanley »</description>
-	<enclosure url="http://www.soundportraits.org/audio/the-execution-tapes.mp3" length="3220" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/the-execution-tapes.mp3" length="24297696" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
 	<itunes:duration>0:53:40</itunes:duration>
@@ -551,7 +551,7 @@ Next Page  | Execution of Ivon Ray Stanley »</itunes:summary>
 	<guid>http://www.soundportraits.org/audio/under-the-roller-coaster.mp3</guid>
 	<description>In Woody Allen's film Annie Hall, the house under the roller coaster was a sight gag. For Mae Timpano, it was home. In 1946, while working as a waitress on Coney Island, Mae met Fred Moran, the owner and operator of the Thunderbolt roller coaster. They soon fell in love, and for forty years they lived together in Fred's house -- right under the Thunderbolt's first turnaround. 
 Fred died in 1982, and the Thunderbolt carried its last thrill-seeker soon after. In 1988, Mae moved out, and the house was sold to a developer who dreamed of building a new amusement park on the famed island. But the coaster was silent for twelve years, and in November 2000, with no warning, the city of New York bulldozed away one of its great urban treasures. Here, Mae tells the story of her years living in the house that the Thunderbolt rattled.</description>
-	<enclosure url="http://www.soundportraits.org/audio/under-the-roller-coaster.mp3" length="261" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/under-the-roller-coaster.mp3" length="2081677" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 04 Sep 2001 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:21</itunes:duration>
@@ -567,7 +567,7 @@ Fred died in 1982, and the Thunderbolt carried its last thrill-seeker soon after
 	<guid>http://www.soundportraits.org/audio/fire-chief.mp3</guid>
 	<description>To the firefighters he led, William Feehan was legendary. The son of a firefighter and the father of another, it was said that he knew the location of every fire hydrant in New York City. Feehan joined the city's fire department in 1959 as a member of Ladder Company 3. In his 42 years with the department, Feehan steadily made his way through the ranks. When he was named acting commissioner in 1991, he become the first person in history to have held every possible position in the department.
 Feehan died in the line of duty on September 11, 2001, when the south tower of the World Trade Center collapsed on his command station. He was 71. This oral history was recorded in 1992 by Feehan's son Billy and photographer Harvey Wang. It is dedicated to the members of the New York City Fire Department and to all of the men and women who have risked -- and lost -- their lives to save the lives of others.</description>
-	<enclosure url="http://www.soundportraits.org/audio/fire-chief.mp3" length="193" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/fire-chief.mp3" length="1490949" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 15 Sep 2001 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:13</itunes:duration>
@@ -584,7 +584,7 @@ Feehan died in the line of duty on September 11, 2001, when the south tower of t
 	<description>On April 15, 1945, British forces liberated the Bergen-Belsen concentration camp in northern Germany. Sixty-thousand prisoners were living in the camp when the troops arrived, most of them seriously ill. Thousands more lay dead and unburied on the camp grounds.
 BBC reporter Patrick Gordon Walker was among the press corps that entered Bergen-Belsen with the British troops that day. Over the next few weeks, he documented what he saw, recording the first Sabbath ceremony openly conducted on German soil since the beginning of the war, interviewing survivors, and speaking to British Tommies about what they had witnessed at liberation. 
 One of the people who heard Walker's radio dispatches was soon-to-be-legendary folk-music producer Moe Asch. An engineer at the time at New York radio station WEVD, Asch recorded the shortwave broadcast onto an acetate disc. Decades later, the record was re-discovered at the Smithsonian Institution by historian Henry Sapoznik.</description>
-	<enclosure url="http://www.soundportraits.org/audio/bergen-belsen.mp3" length="220" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/bergen-belsen.mp3" length="1434080" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 20 Apr 2002 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:40</itunes:duration>
@@ -601,7 +601,7 @@ One of the people who heard Walker's radio dispatches was soon-to-be-legendary f
 	<guid>http://www.soundportraits.org/audio/strates-carnival.mp3</guid>
 	<description>When the James E. Strates Carnival staked its tents near downtown Washington, DC, in the spring of 1941, Library of Congress archivist Charles Harrell was there to meet it. He was part of the Library's Radio Research Project, a small group dedicated to recording Americans "speaking without script, discussing their problems, telling eloquently the story of their regions, the story of their own experience -- their songs -- their folklore." The carnival, basically in the Library's backyard, was a perfect opportunity. 
 The Strates carnivals are still in existence -- it is now the only remaining carnival company that travels the country by railroad -- but the show itself has changed a great deal over the past six decades. Fortune tellers and weight guessers, burlesque dancers and two-headed babies, Harrell's recordings capture the sounds of an era long gone.</description>
-	<enclosure url="http://www.soundportraits.org/audio/strates-carnival.mp3" length="291" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/strates-carnival.mp3" length="2327437" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 03 Sep 2002 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:51</itunes:duration>
@@ -616,7 +616,7 @@ The Strates carnivals are still in existence -- it is now the only remaining car
 	<link>http://www.soundportraits.org/audio/george-knox-hypnotherapist.mp3</link>
 	<guid>http://www.soundportraits.org/audio/george-knox-hypnotherapist.mp3</guid>
 	<description>Dr. George Knox may be the oldest practicing psychologist in the country. At 91, he's been hypnotizing patients at his private practice in Gahanna, Ohio, for over half a century. And for the last 40 years, his stress-free lifestyle has centered on running ultra-marathons and practicing auto-suggestion -- sometimes at the same time.</description>
-	<enclosure url="http://www.soundportraits.org/audio/george-knox-hypnotherapist.mp3" length="246" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/george-knox-hypnotherapist.mp3" length="1967649" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 04 Jan 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:06</itunes:duration>
@@ -631,7 +631,7 @@ The Strates carnivals are still in existence -- it is now the only remaining car
 	<guid>http://www.soundportraits.org/audio/rabbit-hunter.mp3</guid>
 	<description>Each winter in Florida's sugar cane country, farmers set fire to their crops to clear away the dead stalks, and in the town of Pahokee, on the shores of Lake Okechobee, it's a tradition for young people to hunt the rabbits that are smoked out by the fires. Groups of boys stand by the side of the road, armed with broken sugar cane stalks, waiting for the flame thrower trucks to approach.
 Dodging the heavy machinery of the growers, the boys work in teams, cornering the rabbits and striking them with the cane. The boys disembowel the rabbits on the spot, and at the end of the day they bring them home to their families for dinner or sell them to neighbors for two dollars a piece. Thirteen-year-old Willie Young, takes us into the smoking fields.</description>
-	<enclosure url="http://www.soundportraits.org/audio/rabbit-hunter.mp3" length="122" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/rabbit-hunter.mp3" length="976250" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 11 Feb 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:02:02</itunes:duration>
@@ -648,7 +648,7 @@ Dodging the heavy machinery of the growers, the boys work in teams, cornering th
 	<description>In March 1993, producer Dave Isay put a microphone into the hands of two young people living in Chicago's notorious Ida B. Wells public housing projects and asked them to record an audio portrait of their lives. The result was Ghetto Life 101, and it sparked the interest of an aspiring poet and writer living in the projects: Yanier "Blak" Moore.
 Blak's life has been marked by an almost inconceivable degree of violence and death -- gang-banging and drug-dealing, the murders of his parents and countless close friends -- but through it all he has been able to transcend personal tragedy with the power of words.
 On the tenth anniversary of Ghetto Life 101, Sound Portraits is proud to return to the Ida B. Wells and present a new story of hope.</description>
-	<enclosure url="http://www.soundportraits.org/audio/blaks-story.mp3" length="723" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/blaks-story.mp3" length="5777556" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 13 Mar 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:12:03</itunes:duration>
@@ -666,7 +666,7 @@ On the tenth anniversary of Ghetto Life 101, Sound Portraits is proud to return 
 	<description>On Jan 8, 1990, Robert Wesley Knighton broke into the rural Oklahoma farmhouse of an elderly couple, Richard and Virginia Denney, and murdered them. He took sixty-one dollars, a pocketknife, some cigarettes, and a run-down truck. Nine months later he was sentenced to death. 
 This is a recording of the final clemency hearing for Knighton. In Oklahoma, a clemency hearing for a crime of this sort is little more than a formality, but this case was unusual. The only witness testifying on Knighton's behalf was Sue Norton, the daughter of the man he had murdered thirteen years ago. 
 Sue Norton forgave and ultimately befriended Knighton. She and her husband will witness Knighton's execution at his request on May 27, 2003. In this story, she walks us through Knighton's clemency hearing, held eight days before he was executed.</description>
-	<enclosure url="http://www.soundportraits.org/audio/clemency.mp3" length="357" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/clemency.mp3" length="2851215" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 27 May 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:05:57</itunes:duration>
@@ -682,7 +682,7 @@ Sue Norton forgave and ultimately befriended Knighton. She and her husband will 
 	<link>http://www.soundportraits.org/audio/last-male-stripper.mp3</link>
 	<guid>http://www.soundportraits.org/audio/last-male-stripper.mp3</guid>
 	<description>Bernie Barker, a retired nuclear engineer, was sixty when he launched his new career: dancing for women. Guinness World Records has since recognized him as the oldest male stripper. This is his story.</description>
-	<enclosure url="http://www.soundportraits.org/audio/last-male-stripper.mp3" length="246" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/last-male-stripper.mp3" length="1967232" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 02 Jul 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:06</itunes:duration>
@@ -696,7 +696,7 @@ Sue Norton forgave and ultimately befriended Knighton. She and her husband will 
 	<link>http://www.soundportraits.org/audio/last-elevator.mp3</link>
 	<guid>http://www.soundportraits.org/audio/last-elevator.mp3</guid>
 	<description>On the morning of September 11, 2001, Michael Nestor, Liz Thompson, and Richard Tierney were eating breakfast at Windows on the World, the restaurant at the top of the North Tower of the World Trade Center. Together, they rode in the last elevator down in the moments before American Airlines Flight 11 struck the building at 8:46 that morning. Everyone at the restaurant at the time of impact, approximately 170 men and women, perished.</description>
-	<enclosure url="http://www.soundportraits.org/audio/last-elevator.mp3" length="219" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/last-elevator.mp3" length="1749475" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 11 Sep 2003 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:39</itunes:duration>
@@ -710,7 +710,7 @@ Sue Norton forgave and ultimately befriended Knighton. She and her husband will 
 	<link>http://www.soundportraits.org/audio/joe-vitacco.mp3</link>
 	<guid>http://www.soundportraits.org/audio/joe-vitacco.mp3</guid>
 	<description>"I just do them. That's all I know." That's how Joe Vitacco describes his life work. Vitacco is one of the last of Chicago's freelance embalmers. He still works out of his trunk, driving from funeral home to funeral home, performing three embalmings a day, every day of the year. While most embalmers don't make the twenty-year mark, Joe just keeps at it. Over his career of forty-one years, the bodies have piled up. Joe estimates he has embalmed 40,000 bodies. Here is the story of just one.</description>
-	<enclosure url="http://www.soundportraits.org/audio/joe-vitacco.mp3" length="195" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/joe-vitacco.mp3" length="1556169" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Thu, 11 Mar 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:15</itunes:duration>
@@ -725,7 +725,7 @@ Sue Norton forgave and ultimately befriended Knighton. She and her husband will 
 	<guid>http://www.soundportraits.org/audio/kitty-genovese.mp3</guid>
 	<description>On March 13th, 1964, one of one of the most infamous crimes in American history occurred in the Kew Gardens neighborhood of Queens, New York. At around 3 AM, 28-year-old Catherine "Kitty" Genovese was attacked, sexually assaulted, and murdered as she walked from her parked car. The assault lasted thirty-five minutes and occurred outside of an apartment building where a reported 38 witnesses either heard or saw the attack and did nothing to stop it. A front-page article in the New York Times sparked an avalanche of press and weeks of national soul searching. The case has lived on in plays, musicals, TV dramas -- it even spawned a whole new branch of psychology. 
 Today the name Kitty Genovese remains synonymous with public apathy, although almost nothing is known of who she actually was. It was not reported in 1964 that Kitty Genovese was a lesbian and that she shared her home in Kew Gardens with her girlfriend, Mary Ann Zielonko. In this piece, the first broadcast interview she has ever granted, Mary Ann remembers Kitty and the time they shared.</description>
-	<enclosure url="http://www.soundportraits.org/audio/kitty-genovese.mp3" length="269" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/kitty-genovese.mp3" length="2146118" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 13 Mar 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:29</itunes:duration>
@@ -743,7 +743,7 @@ Today the name Kitty Genovese remains synonymous with public apathy, although al
 Stinney, who was black, was convicted of murdering two white girls, Betty June Binnicker, age 11, and Mary Emma Thames, age 8, with a railroad spike. The trial lasted three hours, and the all-white jury deliberated for 10 minutes before sentencing George Stinney to death in the electric chair. 
 At Stinney's execution six weeks later, the guards had difficulty strapping him to the electric chair (he was 5' 1" and weighed just over 90 pounds). During the electrocution, the jolt shook the adult-sized mask from his head. 
 On the sixtieth anniversary of his electrocution, one of the last surviving members of George Stinney's family as well as the only living sibling of Betty June Binnicker recall the event.</description>
-	<enclosure url="http://www.soundportraits.org/audio/george-stinney.mp3" length="230" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/george-stinney.mp3" length="1840590" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 30 Jun 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:50</itunes:duration>
@@ -760,7 +760,7 @@ On the sixtieth anniversary of his electrocution, one of the last surviving memb
 	<link>http://www.soundportraits.org/audio/northlandz.mp3</link>
 	<guid>http://www.soundportraits.org/audio/northlandz.mp3</guid>
 	<description>Just off Route 202 in Flemington, New Jersey, sits an unimpressive warehouse that holds a most impressive life's work -- that of the husband and wife team Zaccagnino, creators of the world's largest model railroad. Inside, scores of model trains wind their way past an unrelenting succession of impeccably detailed scenes in miniature -- mini cities give way to mini mining towns, mini graveyards, even mini outhouses. In the center of it all, Bruce Zaccagnino plays a massive pipe organ, providing the soundtrack to this universe in miniature.</description>
-	<enclosure url="http://www.soundportraits.org/audio/northlandz.mp3" length="217" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/northlandz.mp3" length="1735055" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Tue, 07 Sep 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:37</itunes:duration>
@@ -774,7 +774,7 @@ On the sixtieth anniversary of his electrocution, one of the last surviving memb
 	<link>http://www.soundportraits.org/audio/barbers-of-belmont.mp3</link>
 	<guid>http://www.soundportraits.org/audio/barbers-of-belmont.mp3</guid>
 	<description>Hidden deep inside New York's famed Belmont racetrack, below the grandstand and past rows of betting windows, is a plain sign tucked almost out of sight, which reads, "Barbershop." There, inside a cavernous cinder-block room with three old-fashioned barbershop chairs, you'll find the incomparable barbers of Belmont: Sal, Tony, and Uri.</description>
-	<enclosure url="http://www.soundportraits.org/audio/barbers-of-belmont.mp3" length="199" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/barbers-of-belmont.mp3" length="1592322" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Mon, 25 Oct 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:19</itunes:duration>
@@ -789,7 +789,7 @@ On the sixtieth anniversary of his electrocution, one of the last surviving memb
 	<guid>http://www.soundportraits.org/audio/red-mikes-band.mp3</guid>
 	<description>For more than 75 years trumpet player Red Mike Acampora has been a staple of New York City's Little Italy. At one time his band worked a crowded schedule, playing religious festivals, block parties, and funerals. But over the decades, Little Italy shrunk to just over a city block. Most of the old neighborhood is now part of New York's rapidly expanding Chinatown. Business for Red Mike's Band would have all but dried up if not for the fact that the Chinese community adopted the tradition of Italian bands playing at their funerals.
 Last week Red Mike passed away, at the age of 91. You're about to hear a recording of the last time the band played together with Red Mike as leader, outside the Chinese Cheung Sang Funeral Home, on Mott Street.</description>
-	<enclosure url="http://www.soundportraits.org/audio/red-mikes-band.mp3" length="181" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/red-mikes-band.mp3" length="1443947" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 04 Dec 2004 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:01</itunes:duration>
@@ -804,7 +804,7 @@ Last week Red Mike passed away, at the age of 91. You're about to hear a recordi
 	<link>http://www.soundportraits.org/audio/julius-howell.mp3</link>
 	<guid>http://www.soundportraits.org/audio/julius-howell.mp3</guid>
 	<description>Julius Franklin Howell joined the Confederate Army when he was 16. After surviving a few battles, Howell eventually found himself in a Union prison camp at Point Lookout, Maryland. In 1947, at the age of 101, Howell made a rare recording at the Library of Congress, in which he described his enlistment, sudden capture, and his experience in the Union prison camp on the morning of April 15th, 1865, the morning Abraham Lincoln died.</description>
-	<enclosure url="http://www.soundportraits.org/audio/julius-howell.mp3" length="217" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/julius-howell.mp3" length="1733801" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 15 Apr 2005 00:00:00 +0000</pubDate>
 	<itunes:duration>0:03:37</itunes:duration>
@@ -818,7 +818,7 @@ Last week Red Mike passed away, at the age of 91. You're about to hear a recordi
 	<link>http://www.soundportraits.org/audio/atom-bomb-photographer.mp3</link>
 	<guid>http://www.soundportraits.org/audio/atom-bomb-photographer.mp3</guid>
 	<description>On the morning of July 16, 1945, a young man named Jack Aeby snapped one of history's most important and famous photographs—the only color picture of the first test of the atom bomb. Aeby was a 21-year-old amateur photographer. He was working as a technician on the Manhattan Project in Los Alamos, when he was granted permission to photograph a top-secret test, code named Trinity.</description>
-	<enclosure url="http://www.soundportraits.org/audio/atom-bomb-photographer.mp3" length="155" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/atom-bomb-photographer.mp3" length="1237475" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 15 Jul 2005 00:00:00 +0000</pubDate>
 	<itunes:duration>0:02:35</itunes:duration>
@@ -833,7 +833,7 @@ Last week Red Mike passed away, at the age of 91. You're about to hear a recordi
 	<guid>http://www.soundportraits.org/audio/witness-to-the-atom-bomb.mp3</guid>
 	<description>On August 6, 1945, the United States dropped the atomic bomb on Hiroshima, resulting in over 100,000 Japanese casualties. Shortly thereafter, the United States Strategic Bombing Survey sent members of its Morale Division to conduct a series of man-on-the-street interviews across Japan. Their recordings, 366 in total, have been housed in relative obscurity at the National Archives for the past 50 years. 
 This interview, recorded in December 1945, was the only English-language eyewitness account. The speaker, Kaleria Palchikoff Drago, was a 23-year-old Russian immigrant, whose parents had moved to Japan twenty-four years earlier. She had been living just outside of the city on the day of the bombing.</description>
-	<enclosure url="http://www.soundportraits.org/audio/witness-to-the-atom-bomb.mp3" length="284" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/witness-to-the-atom-bomb.mp3" length="2269625" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Fri, 05 Aug 2005 00:00:00 +0000</pubDate>
 	<itunes:duration>0:04:44</itunes:duration>
@@ -848,7 +848,7 @@ This interview, recorded in December 1945, was the only English-language eyewitn
 	<link>http://www.soundportraits.org/audio/my-lobotomy.mp3</link>
 	<guid>http://www.soundportraits.org/audio/my-lobotomy.mp3</guid>
 	<description></description>
-	<enclosure url="http://www.soundportraits.org/audio/my-lobotomy.mp3" length="1370" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/my-lobotomy.mp3" length="10955862" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Wed, 16 Nov 2005 00:00:00 +0000</pubDate>
 	<itunes:duration>0:22:50</itunes:duration>
@@ -865,7 +865,7 @@ This interview, recorded in December 1945, was the only English-language eyewitn
 In January 2003, Adrian Leon LeBlanc was 85 years old and the father of four. He was in the final stages of lung cancer and had just entered hospice care. He spent his days in his house in Leominster, Massachusetts, a working-class town near Boston, in the company of his family. During this time, Adrian Nicole LeBlanc regularly drove in from her home in New York City to visit her father.
 Each time she visited, Adrian Nicole taped her conversations with her father. She wanted to preserve a record of their relationship and capture her father's voice. Adrian Leon LeBlanc had been a labor activist and World War II veteran; as such, he had always been outspoken on behalf of others' interests but was reluctant to talk about himself and his personal feelings. Still, he welcomed his daughter's recorder, believing that documenting the last months of his life might help other families who were going through similar experiences.
 The Ground We Lived On is a story of loving and losing a parent and the record of a father's final gift to his daughter: helping her to conceive of a world without him.</description>
-	<enclosure url="http://www.soundportraits.org/audio/the-ground-we-lived-on.mp3" length="772" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/the-ground-we-lived-on.mp3" length="6173536" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Mon, 13 Nov 2006 00:00:00 +0000</pubDate>
 	<itunes:duration>0:12:52</itunes:duration>
@@ -885,7 +885,7 @@ The Ground We Lived On is a story of loving and losing a parent and the record o
 McCune, who was mentally ill, was convicted of rape and sentenced to die in the electric chair in 1950. A song he wrote on death row caught the ear of the governor, who commuted his sentence to life in prison. It was there, four decades ago, that McCune met a young documentary photographer named Danny Lyon. Lyon had been granted unprecedented access to photograph inside the Texas prison system. He published his photos in the seminal 1971 book, Conversations With the Dead.
 Over the course of the project, Danny Lyon got to know Billy McCune, who had also become an artist in the penitentiary. Lyon included so many of McCune's drawings in Conversations With the Dead that he subtitled the book "Photographs of Prison Life With the Letters and Drawings of Billy McCune #12-20-54."
 While Lyon's prison photos are today legendary, what's not know is that he also made reel-to-reel audio recordings of his conversations with Billy McCune in prison. Never before heard, these tapes are an extraordinary artifact—providing a rare glimpse inside the Texas prisons of the 1960s, and documenting Lyon's historic partnership with the late Billy McCune. Photographer Danny Lyon tells us the story.</description>
-	<enclosure url="http://www.soundportraits.org/audio/last_mile.mp3" length="477" type="audio/mpeg"/>
+	<enclosure url="http://www.soundportraits.org/audio/last_mile.mp3" length="4969918" type="audio/mpeg"/>
 	<category>Podcasts</category>
 	<pubDate>Sat, 06 Oct 2007 00:00:00 +0000</pubDate>
 	<itunes:duration>0:07:57</itunes:duration>
